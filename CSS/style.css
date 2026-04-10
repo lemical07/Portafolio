@@ -130,3 +130,32 @@ header {
     animation: coloresFluidos 6s ease infinite;
     transform: translateY(-4px);
 }
+section {
+    padding: 100px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.8rem;
+    color: #0004ff;
+    margin-bottom: 4rem;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+}
+
+.about img {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 50%;
+    padding: 8px;
+    background: linear-gradient(45deg, #0033ff, #00fff7, #800080);
+    display: block;
+    box-shadow: 0 0 50px rgba(0, 68, 255, 0.5);
+}
