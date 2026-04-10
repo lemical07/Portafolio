@@ -159,3 +159,42 @@ section {
     display: block;
     box-shadow: 0 0 50px rgba(0, 68, 255, 0.5);
 }
+.skills {
+    display: grid;
+    gap: 1.8rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.skill span {
+    width: 140px;
+    font-weight: 600;
+}
+
+.progress-bar {
+    flex: 1;
+    height: 14px;
+    background: #222;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: linear-gradient(45deg, #00A86B,#0004ff, #800080,#FF0000,#FFFF00);
+    background-size: 300% 300%;
+    animation: coloresFluidos 6s ease infinite;
+    border-radius: 50px; 
+}
+
+@keyframes coloresFluidos {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
