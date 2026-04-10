@@ -28,3 +28,76 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+.logo {
+    height: 125px;
+    width: 135px;
+    background-color: #ffffff;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    animation: pulsoBrillo 2s ease-in-out infinite !important;
+}
+@keyframes pulsoBrillo {
+    0% { box-shadow: 0 0 10px rgba(0, 255, 200, 0.4); }
+    50% { box-shadow: 0 0 30px rgba(0, 255, 200, 0.8); } /* Brilla más */
+    100% { box-shadow: 0 0 10px rgba(0, 255, 200, 0.4); }
+}
+
+.menu {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    background: linear-gradient(135deg, #0044FF, #00FFC8);
+}
+
+.intro {
+    min-height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 0 5%;
+    gap: 4rem;
+    background-color: #000000;
+}
+
+.intro-content h1 {
+    font-size: 3.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.highlight {
+    color: #0004ff;
+}
+
+.intro-content h2 {
+    font-size: 2.2rem;
+    color: #ccc;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid #00ffc8;
+    animation: 
+        typing 1s steps(300, end) infinite alternate, 
+        blink-caret 5s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.intro-content p {
+    max-width: 480px;
+    font-size: 1.2rem;
+    color: #aaa;
+    margin-bottom: 2rem;
+}
