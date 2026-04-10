@@ -4,16 +4,16 @@
 # Selvin Eladio Lem Ical
 
 <p align= "center">
-    <img src="logo.png" alt="logo">
+    <img src="./IMG/logo.png" alt="logo">
 </p>
 
 > **Developer in training | Exploring the world of Python, C++ and the web. **
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg" alt="Python" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/HTML.svg" alt="HTML" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/CSS.svg" alt="CSS" width="40" height="40" />
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUBwhMOxO7xHV9OqhDZ585TTapui1-kcj3dA&s alt="Git" width="40" height="40" />
+  <img src="./IMG/python.png" alt="Python" width="40" height="40" />
+  <img src="./IMG/html.png"alt="HTML" width="40" height="40" />
+  <img src="./IMG/css.png" alt="CSS" width="40" height="40" />
+  <img src="./IMG/git.png" alt="GitHub" width="40" height="40">
 </p>
 </div>
 
