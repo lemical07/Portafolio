@@ -40,6 +40,6 @@ Full Stack Web Developer with a passion for transforming complex ideas into high
 ---
 
 ## Contact
-* **Portfolio:** https://github.com/lemical07/Portafolio
+* **Portfolio:** https://github.com/lemical07/Portafolio/commits/main/
 * **WhatsApp:** <a href="https://wa.me/46872656" target="_blank">46872656</a>
 * **E-mail:** icaleladio@gmail.com
